@@ -75,6 +75,11 @@ TAR_OPTIONS += \
 # use an absolute path to ensure it really picks up our version
 export ac_cv_search_ZSTD_compress=$(STAGING_DIR_HOST)/lib/libzstd.a -pthread
 export libgcc_cv_fixed_point=no
+export acx_cv_cc_gcc_supports_ada=no
+export ac_cv_prog_GNATBIND=no
+export ac_cv_prog_GNATMAKE=no
+export ac_cv_prog_ac_ct_GNATBIND=no
+export ac_cv_prog_ac_ct_GNATMAKE=no
 ifdef CONFIG_INSTALL_GCCGO
   export libgo_cv_c_split_stack_supported=no
 endif
